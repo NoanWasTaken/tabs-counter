@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    margin: 10px;
+    background: #ffffff;
+    color: #000000;
+}
+
+body.dark {
+    background: #1e1e1e;
+    color: #ffffff;
+}
+
+#theme-toggle {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+body {
+    font-family: Arial;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: #4CAF50;
+    font-size: 2em;
+}
+
+button {
+    margin-top: 10px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#counter-container {
+    display: block;
+    text-align: center;
+    gap: 8px;
+}
+
+#theme_container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

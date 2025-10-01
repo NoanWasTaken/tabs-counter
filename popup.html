@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tabs Counter</title>
-    <style>
-      body { font-family: Arial; text-align: center; padding: 10px; }
-      h1 { color: #4CAF50; font-size: 2em; }
-      button { margin-top: 10px; padding: 6px 12px; cursor: pointer; }
-    </style>
-  </head>
-  <body>
-    <h1 id="count"></h1>
-    <p>Opened tabs</p>
-    <button id="close-old">Close old tabs <span id="old-count"></span></button>
-    <script src="popup.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tabs Counter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div id="theme_container">
+    <button id="theme-toggle">
+      <img id="theme-icon" src="images/sun-light.svg" alt="theme" width="24">
+    </button>
+    </div>
+    <div id="counter-container">
+      <h1 id="count"></h1>
+      <p>Opened tabs</p>
+      <button id="close-old">Close old tabs <span id="old-count"></span></button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
 </html>
