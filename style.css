@@ -1,47 +1,166 @@
 body {
-    font-family: sans-serif;
-    margin: 10px;
-    background: #ffffff;
-    color: #000000;
+  font-family: sans-serif;
+  margin: 10px;
+  background: #ffffff;
+  color: #000000;
 }
 
 body.dark {
-    background: #1e1e1e;
-    color: #ffffff;
+  background: #1e1e1e;
+  color: #ffffff;
 }
 
 #theme-toggle {
-    border: none;
-    background: none;
-    cursor: pointer;
-    margin-top: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
 body {
-    font-family: Arial;
-    text-align: center;
-    padding: 10px;
+  font-family: Arial;
+  text-align: center;
+  padding: 10px;
 }
 
 h1 {
-    color: #4CAF50;
-    font-size: 2em;
+  color: #4caf50;
+  font-size: 2em;
 }
 
 button {
-    margin-top: 10px;
-    padding: 6px 12px;
-    cursor: pointer;
+  margin-top: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
 }
 
 #counter-container {
-    display: block;
-    text-align: center;
-    gap: 8px;
+  display: block;
+  text-align: center;
+  gap: 8px;
 }
 
 #theme_container {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#settings-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Settings section */
+#settings-section {
+  width: 100%;
+}
+
+#settings-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+#back-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+#settings-header h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: inherit;
+}
+
+#settings-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.setting-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+}
+
+.setting-group label {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.setting-group input,
+.setting-group select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+body.dark .setting-group input,
+body.dark .setting-group select {
+  background: #333;
+  border-color: #555;
+  color: #fff;
+}
+
+#save-settings {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#save-settings:hover {
+  background: #45a049;
+}
+
+#close-old {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#close-old:hover {
+  background: #45a049;
+}
+
+body.dark #save-settings {
+  background: #388e3c;
+}
+
+body.dark #save-settings:hover {
+  background: #2e7d32;
+}
+
+body.dark #close-old {
+  background: #388e3c;
+}
+
+body.dark #close-old:hover {
+  background: #2e7d32;
+}
+
+/* Color states for tab count */
+#count.orange {
+  color: #ff9800 !important;
+}
+
+#count.red {
+  color: #f44336 !important;
 }

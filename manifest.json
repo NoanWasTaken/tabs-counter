@@ -3,14 +3,9 @@
   "name": "Tabs counter",
   "version": "1.0",
   "description": "Displays the number of open tabs in your browser.",
-  "permissions": [
-    "tabs",
-    "storage"
-  ],
+  "permissions": ["tabs", "storage"],
   "background": {
-    "scripts": [
-      "background.js"
-    ],
+    "scripts": ["background.js"],
     "persistent": false
   },
   "browser_action": {

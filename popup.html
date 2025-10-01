@@ -1,26 +1,79 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tabs Counter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Tabs Counter</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <div class="container">
+      <div id="main-section">
+        <div id="theme_container">
+          <button id="theme-toggle">
+            <img
+              id="theme-icon"
+              src="images/sun-light.svg"
+              alt="theme"
+              width="24"
+            />
+          </button>
+          <button id="settings-button">
+            <img
+              id="settings-icon"
+              src="images/settings.svg"
+              alt="settings"
+              width="24"
+            />
+          </button>
+        </div>
+        <div id="counter-container">
+          <h1 id="count"></h1>
+          <p>Opened tabs</p>
+          <button id="close-old">
+            Close old tabs <span id="old-count"></span>
+          </button>
+        </div>
+      </div>
 
-<body>
-  <div class="container">
-    <div id="theme_container">
-    <button id="theme-toggle">
-      <img id="theme-icon" src="images/sun-light.svg" alt="theme" width="24">
-    </button>
+      <div id="settings-section" style="display: none">
+        <div id="settings-header">
+          <button id="back-button">
+            <img id="back-icon" src="images/xmark.svg" alt="back" width="24" />
+          </button>
+          <h2>Settings</h2>
+        </div>
+
+        <div id="settings-content">
+          <div class="setting-group">
+            <label for="tab-threshold">Tab count threshold:</label>
+            <input
+              type="number"
+              id="tab-threshold"
+              min="1"
+              max="100"
+              value="10"
+            />
+          </div>
+
+          <div class="setting-group">
+            <label for="old-tab-time">Old tab time threshold:</label>
+            <select id="old-tab-time">
+              <option value="0.5">30 minutes</option>
+              <option value="1">1 hour</option>
+              <option value="2">2 hours</option>
+              <option value="6">6 hours</option>
+              <option value="12">12 hours</option>
+              <option value="24" selected>1 day</option>
+              <option value="48">2 days</option>
+              <option value="168">1 week</option>
+            </select>
+          </div>
+
+          <button id="save-settings">Save Settings</button>
+        </div>
+      </div>
     </div>
-    <div id="counter-container">
-      <h1 id="count"></h1>
-      <p>Opened tabs</p>
-      <button id="close-old">Close old tabs <span id="old-count"></span></button>
-    </div>
-  </div>
-  <script src="popup.js"></script>
-</body>
-
+    <script src="popup.js"></script>
+  </body>
 </html>
