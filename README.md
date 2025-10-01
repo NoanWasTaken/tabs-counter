@@ -4,7 +4,7 @@ A small web extension that counts the number of tabs oppened in your current nav
 
 ![screenshot](images/screenshot.png)
 
-
+## 
 - [Features](#features)  
 - [Installation](#installation)  
 - [Usage](#usage)   
