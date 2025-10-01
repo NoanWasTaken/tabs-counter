@@ -18,7 +18,7 @@ A small web extension that counts the number of tabs oppened in your current nav
  
 ## Installation
 - Currently available for **Firefox**
-- Working on **Google**
+- Working on **Google** version (not available yet)
 - Not available in official Firefox extensions repository __*for now*__
 
 ## Usage
