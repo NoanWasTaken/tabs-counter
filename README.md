@@ -2,10 +2,12 @@
 
 A small web extension that counts the number of tabs oppened in your current navigator.
 
+![screenshot](images/screenshot.png)
+
+
 - [Features](#features)  
 - [Installation](#installation)  
-- [Usage](#usage)  
-- [Development](#development)  
+- [Usage](#usage)   
 - [License](#license)
 
 
@@ -21,7 +23,7 @@ A small web extension that counts the number of tabs oppened in your current nav
 
 ## Usage
 - Click on the extension icon to see the number of tabs currently opened.
-- Use the "Close old tabs" button to automatically close tabs that have been inactive for more than 24 hours.
+- Use the "Close old tabs" button to automatically close tabs that have been opened for more than 24 hours.
 - The badge on the extension icon updates in real time when you open or close tabs.
 
 ## License
