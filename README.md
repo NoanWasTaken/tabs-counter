@@ -5,9 +5,10 @@ A small web extension that counts the number of tabs oppened in your current nav
 ![screenshot](images/screenshot.png)
 
 ## 
-- [Features](#features)  
-- [Installation](#installation)  
-- [Usage](#usage)   
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Permissions](#Permissions)
 - [License](#license)
 
 
@@ -29,6 +30,11 @@ A small web extension that counts the number of tabs oppened in your current nav
 - Use the "Close old tabs" button to automatically close tabs that have been opened for more than 24 hours.
 - The badge on the extension icon updates in real time when you open or close tabs.
 - Set your limits in the settings for more personalization.
+
+## Permissions
+- The extension requires the following permissions :
+  - Tabs (to access tabs informations)
+  - Storage (to store extension settings in the browser's local storage)
 
 ## License
 Under MIT License
