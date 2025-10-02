@@ -1,3 +1,10 @@
+.montserrat-400 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   font-family: sans-serif;
   margin: 10px;
