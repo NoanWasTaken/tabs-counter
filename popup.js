@@ -17,7 +17,7 @@ function updatePopup() {
         oldTabs++;
       }
     }
-    document.getElementById("old-count").innerHTML = "(" + oldTabs + ")";
+    document.getElementById("old-count").textContent = "(" + oldTabs + ")";
   });
 }
 
