@@ -21,9 +21,8 @@ A small web extension that counts the number of tabs oppened in your current nav
 - Light and Dark theme
  
 ## Installation
-- Currently available for **Firefox**
-- Working on **Google** version (not available yet)
-- Not available in official Firefox extensions repository __*for now*__
+- Currently working for **Firefox** and **Chromium** based browsers
+- Not available in official Firefox and Opera extensions repository __*for now*__
 
 ## Usage
 - Click on the extension icon to see the number of tabs currently opened (or view it on the extension logo).
